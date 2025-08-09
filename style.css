@@ -1,0 +1,38 @@
+h1, h2, h5 {
+  color: #1a1a1a;
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #2eb086;
+}
+
+.btn-success {
+  background-color: #2eb086;
+  border-color: #2eb086;
+}
+
+.btn-success:hover {
+  background-color: #27a176;
+  border-color: #27a176;
+}
+
+.icon-circle {
+  width: 60px;              /* ความกว้าง */
+  height: 60px;             /* ความสูง */
+  background-color: #2eb086; /* สีพื้น (bg-success) */
+  border-radius: 50%;       /* ทำให้เป็นวงกลม */
+  display: flex;            /* จัด icon ให้อยู่กลาง */
+  align-items: center;
+  justify-content: center;
+  color: white;             /* สี icon */
+  font-size: 24px;          /* ขนาด icon */
+  width: clamp(50px, 5vw, 70px);
+  height: clamp(50px, 5vw, 70px);
+}
+i {
+  font-size: clamp(20px, 2vw, 28px);
+}
